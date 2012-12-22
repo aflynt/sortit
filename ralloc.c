@@ -1,4 +1,7 @@
 #include "ralloc.h"
+/*
+ *  "Rudimentary allocation"
+ */
 
 static char allocbuf[ALLOCSIZE]; // storage for alloc
 static char *allocp = allocbuf;  // next free position

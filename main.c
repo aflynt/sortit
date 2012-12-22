@@ -18,3 +18,9 @@ int main(char argc, char *argv[])
 
   return 0;
 }
+
+#if 0
+  a = 0.0;
+  b = 2.0;
+  a = sqrt(b);
+#endif

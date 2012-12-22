@@ -3,6 +3,9 @@
 #include <string.h>
 //#include <math.h>
 
+#define CHECKPT {printf("Checkpoint: %s, line %d\n",__FILE__, __LINE__);\
+  fflush(stdout);}
+
 #define MAXCHARS   80
 #define MAXLEN   1000
 #define MAXLINES 5000
